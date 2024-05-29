@@ -14,6 +14,9 @@
         <router-link to="/about" class-slate-500 hover:text-slate-700 text-xl font-medium> About </router-link>
         <router-link to="/services" class-slate-500 hover:text-slate-700 text-xl font-medium> Services </router-link>
     </nav>
+    <div class="text-4xl text-black cursor-pointer md:hidden">
+        <box-icon name='window-close'></box-icon>
+    </div>
    </header>
 </template>
 
